@@ -1,3 +1,110 @@
-p{
-color:red;
+/*
+Spring Fire framework is developed by "Navneet chaurasia"
+Github Profile : https://github.com/Navneet-chaurasia/;
+
+Spring Fire is useful for those who want to apply stunning animation effects in their 
+html code.
+
+Spring Fire contains some of very optimized classes for this purpose.
+By using these classes anyone can apply number of animations and css effects into their 
+html elements.
+
+
+
+  ===============================================================================================
+  ===============================================================================================
+  ===============================================================================================
+  ===============================================================================================
+
+*/
+
+
+
+
+/*
+[sf-hover]
+this class, when applied to any element, would generate bounce effect on hovering
+
+*/
+
+/*keyframes for [sf-hover] animation*/
+@keyframes sf-hover-div{
+	0%{
+
+
+	}
+     
+    100%{
+
+     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  
+    }
+
 }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sf-hover-div{
+	0%{
+
+
+	}
+     
+    100%{
+
+     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  
+
+    }
+
+    }
+
+
+
+/*this class applies effect in ease in manner*/
+.sf-hover-div:hover{
+
+    -webkit-animation-name: sf-hover-div; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+
+    animation-name: sf-hover-div;
+	animation-duration: 0.5s;
+   
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+
+
+}
+
+/*this class applies effect in ease in manner*/
+.sf-hover-div-in:hover{
+
+-webkit-animation-name: sf-hover-div; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+
+animation-name: sf-hover-div;
+animation-duration: 0.5s;
+
+animation-timing-function: ease-in;
+animation-fill-mode:forwards;
+
+
+}
+
+
+/*this class applies effect in ease in manner*/
+.sf-hover-div-out:hover{
+
+-webkit-animation-name: sf-hover-div; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+
+animation-name: sf-hover-div;
+animation-duration: 0.5s;
+
+animation-timing-function: ease-out;
+animation-fill-mode:forwards;
+
+
+
+
+}
+
